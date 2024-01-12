@@ -10,31 +10,37 @@ import hack from '../images/Hacking.png';
 const Sidebar = () => {
   return (
     <div className="bg-gradient-to-b from-purple-950 to-purple-600 p-4 min-h-screen flex flex-col">
-      <RiBubbleChartLine className='w-12 h-12 text-blue-50 mb-4' />
-      {/* <h2 className="text-xl font-bold mb-4">Sidebar Content</h2> */}
+      <RiBubbleChartLine className='w-12 h-12 text-blue-50 mb-4 ml-8' />
+      
       <nav className="flex-grow">
         <ul>
           <li className="mb-2">
-            <Link to="/" className="flex items-center text-blue-500">
+            <Link to="https://colab.research.google.com/drive/1XY_yjoKMoDtamN5WGZfpANiQqtdDZ-TY?usp=sharing" className="flex items-center text-blue-500">
               <PiNotebookBold className="mr-2 w-8 h-8 text-blue-50 my-2 ml-2" />
-              {/* <FaHome className="mr-2" /> Home */}
+              <p className='font-poppins font-bold text-blue-50'>Notebook</p>
             </Link>
           </li>
           <li className="mb-2">
-            <Link to="/profile" className="flex items-center text-green-500">
+            <Link to="https://github.com/Rediet-Ferew/NLP-UI/" className="flex items-center text-green-500">
               <FaGithub className="mr-2 w-8 h-8 text-blue-50 my-2 ml-2" />
-              {/* <FaUser className="mr-2" /> Profile */}
+              <p className='font-poppins font-bold text-blue-50'>GUI</p>
+            </Link>
+          </li>
+          <li className="mb-2">
+            <Link to="https://github.com/TigistW/PandoraGuard/tree/samuel.fast-api" className="flex items-center text-green-500">
+              <FaGithub className="mr-2 w-8 h-8 text-blue-50 my-2 ml-2" />
+              <p className='font-poppins font-bold text-blue-50'>API</p>
             </Link>
           </li>
           <li>
-            <Link to="/settings" className="flex items-center text-yellow-500">
+            <Link to="" className="flex items-center text-yellow-500">
               <FaBars className="mr-2 w-8 h-8 text-blue-50 my-2 ml-2" />
-              {/* <FaCog className="mr-2" /> Settings */}
+              <p className='font-poppins font-bold text-blue-50'>Dataset</p>
             </Link>
           </li>
         </ul>
       </nav>
-      <div className="self-end w-10 h-10">
+      <div className="w-10 h-10 ml-8">
         <img src={hack} alt="Small hack computer image" />
       </div>
     </div>
