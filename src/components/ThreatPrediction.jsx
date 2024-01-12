@@ -65,7 +65,7 @@ const ThreatPrediction = () => {
                 No Threat <TiTickOutline />
               </p>
               <p className="font-poppins">
-                The predicted probability that this sentence might be a threat
+                The predicted probability that this sentence might not be a threat
                 is{" "}
                 {(
                   100 -
