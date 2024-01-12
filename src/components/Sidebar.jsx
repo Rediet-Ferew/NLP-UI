@@ -33,7 +33,7 @@ const Sidebar = () => {
             </Link>
           </li>
           <li>
-            <Link to="" className="flex items-center text-yellow-500">
+            <Link to="https://drive.google.com/file/d/1ZEgtQmqrRBE3dcCrFpS6EBamuHVoNz81/view?usp=sharing" className="flex items-center text-yellow-500">
               <FaBars className="mr-2 w-8 h-8 text-blue-50 my-2 ml-2" />
               <p className='font-poppins font-bold text-blue-50'>Dataset</p>
             </Link>
